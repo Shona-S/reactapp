@@ -3,10 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./back.jpg'); /* Add your image path here */
+    background-image: url('./flow.png');
     background-size: cover;
     background-position: center;
-    color: white;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color:#103111;
     text-align: center;
   }
   
@@ -20,7 +21,7 @@
   }
   
   .get-started-button {
-    background-color: #4CAF50;
+    background-color: #0a290b;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -30,6 +31,6 @@
   }
   
   .get-started-button:hover {
-    background-color: #45a049;
+    background-color: #123614;
   }
   
