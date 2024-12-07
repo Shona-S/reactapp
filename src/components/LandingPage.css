@@ -1,0 +1,35 @@
+.landing-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./back.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .landing-page h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .landing-page p {
+    font-size: 1.5rem;
+  }
+  
+  .get-started-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .get-started-button:hover {
+    background-color: #45a049;
+  }
+  
